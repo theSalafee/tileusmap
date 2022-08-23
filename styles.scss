@@ -20,8 +20,8 @@
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #305079;
 
     &:hover {
@@ -59,36 +59,173 @@
   content: '';
 }
 
-#ME {
-  grid-column-start: 12;
-}
-#VT {
-  grid-column-start: 11;
-}
+// Columns
+#AK,
 #WA,
 #OR,
-#CA {
+#CA,
+#HI {
+  grid-column-start: 1;
+}
+
+#ID,
+#NV,
+#UT,
+#AZ {
   grid-column-start: 2;
 }
-#AZ {
+
+#MT,
+#WY,
+#CO,
+#NM {
   grid-column-start: 3;
 }
+
+#ND,
+#SD,
+#NE,
+#KS,
 #OK,
 #TX {
+  grid-column-start: 4;
+}
+
+#MN,
+#IA,
+#MO,
+#AR,
+#LA {
   grid-column-start: 5;
 }
-#HI,
-#AK {
-  grid-column-start: 2;
+
+#WI,
+#IL,
+#IN,
+#KY,
+#TN,
+#MS {
+  grid-column-start: 6;
 }
+
+#MI,
+#OH,
+#WV,
+#NC,
+#AL {
+  grid-column-start: 7;
+}
+
+#PA,
+#VA,
+#SC,
+#GA {
+  grid-column-start: 8;
+}
+
+#NY,
+#NJ,
+#MD,
+#DC,
 #FL {
+  grid-column-start: 9;
+}
+
+#VT,
+#MA,
+#CT,
+#DE {
   grid-column-start: 10;
 }
-#PR {
-  grid-column-start: 12;
-  grid-row-start: 9;
+
+#ME,
+#NH,
+#RI {
+  grid-column-start: 11;
 }
-// #WI{
-//   grid-column-start: 6;
-//   grid-row-start: 2
-// }
+
+// Rows
+#AK,
+#ME {
+  grid-row-start: 1;
+}
+
+#WI,
+#VT,
+#NH {
+  grid-row-start: 2;
+}
+
+#WA,
+#ID,
+#MT,
+#ND,
+#MN,
+#IL,
+#MI,
+#NY,
+#MA {
+  grid-row-start: 3;
+}
+
+#OR,
+#NV,
+#WY,
+#SD,
+#IA,
+#IN,
+#OH,
+#PA,
+#NJ,
+#CT,
+#RI {
+  grid-row-start: 4;
+}
+
+#CA,
+#UT,
+#CO,
+#NE,
+#MO,
+#KY,
+#WV,
+#VA,
+#MD,
+#DE {
+  grid-row-start: 5;
+}
+
+#AZ,
+#NM,
+#KS,
+#AR,
+#TN,
+#NC,
+#SC,
+#DC {
+  grid-row-start: 6;
+}
+
+#OK,
+#LA,
+#MS,
+#AL,
+#GA {
+  grid-row-start: 7;
+}
+
+#HI,
+#TX,
+#FL {
+  grid-row-start: 8;
+}
+
+#PR {
+  grid-row-start: 10;
+  grid-column-start: 11;
+}
+
+#blank {
+  grid-column-start: 8;
+  grid-row-start: 3;
+}
